@@ -228,7 +228,6 @@ public class UserController {
 		Authentication loggedInUser = SecurityContextHolder.getContext().getAuthentication();
 		String username = loggedInUser.getName();
 
-		System.out.println("Edit User Зайшло");
 		model.addAttribute("isNew", false);
 		model.addAttribute("userForm", userService.findOne(id));
 		model.addAttribute("lang", userService.findByUsernam(username).getLang());
