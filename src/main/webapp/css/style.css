@@ -2012,3 +2012,6 @@ body.locked {
 /*---------------THEME--------------*/
 .theme {
   cursor: pointer; }
+:root {
+  color-scheme: light only;
+}

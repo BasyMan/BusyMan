@@ -112,6 +112,7 @@ public class UserController {
 			confirmationToken.setUser(userService.findByUsernam(userForm.getUserName()));
 			confirmationTokenRepository.save(confirmationToken);
 			System.out.println(userForm.getEmail());
+
 			SimpleMailMessage mailMessage = new SimpleMailMessage();
 			mailMessage.setTo(userForm.getEmail());
 			mailMessage.setSubject("Complete Registration!");

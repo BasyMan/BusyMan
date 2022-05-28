@@ -6,6 +6,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="color-scheme" content="light only">
 	<title>BusyMan - Sign In</title>
 	<link id="theme" rel="stylesheet" href="/todolist/css/theme-1.css">
 	<link rel="stylesheet" href="/todolist/css/style.css">

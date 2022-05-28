@@ -41,3 +41,6 @@
 --calendar-button-font-active:#153600;
 --calendar-background: #85FF4C;
 }
+:root {
+    color-scheme: light only;
+}

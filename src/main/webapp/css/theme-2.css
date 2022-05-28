@@ -40,4 +40,6 @@
 --calendar-event-background: rgb(36, 36, 114);
 --calendar-button-font-active:#ffffff;
 --calendar-background: #0095ff;
-}
+}:root {
+     color-scheme: light only;
+ }
