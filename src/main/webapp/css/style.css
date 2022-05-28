@@ -475,13 +475,13 @@ body {
   border-bottom-left-radius: 10px;
   content: "";
   background: var(--darker); }
-.input::-webkit-input-placeholder {
+.input > input::-webkit-input-placeholder {
   text-transform: uppercase; }
-.input:-ms-input-placeholder {
+.input > input:-ms-input-placeholder {
   text-transform: uppercase; }
-.input::-ms-input-placeholder {
+.input > input::-ms-input-placeholder {
   text-transform: uppercase; }
-.input::placeholder {
+.input > input::placeholder {
   text-transform: uppercase; }
 
 .checkbox {
@@ -1208,7 +1208,8 @@ body.locked {
 .waiting__element {
   width: 90%; }
 
-.waiting__date {
+.waiting__date,
+.waiting__name {
   text-align: center; }
 
 /*---------------------------NOTES---------------------------*/
