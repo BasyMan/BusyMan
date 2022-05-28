@@ -188,6 +188,8 @@ public class TaskController {
             formatter.format(new Date(System.currentTimeMillis()));
             task.setStart(formatter.format(new Date(System.currentTimeMillis())));
         }
+
+        System.out.println(task.getTitle());
         return taskService.addTask(task);
     }
 
