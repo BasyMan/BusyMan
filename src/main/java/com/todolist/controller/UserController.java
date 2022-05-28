@@ -254,6 +254,8 @@ public class UserController {
 	public String userAdd(@RequestBody User user, Model model) {
 		Authentication loggedInUser = SecurityContextHolder.getContext().getAuthentication();
 		String username = loggedInUser.getName();
+
+		user.setPassword(new BCryptPasswordEncoder().encode(user.getPassword()));
 		userService.addUser(user);
 
 		model.addAttribute("lang", userService.findByUsernam(username).getLang());
