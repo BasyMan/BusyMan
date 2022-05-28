@@ -190,6 +190,7 @@ public class TaskController {
         }
 
         System.out.println(task.getTitle());
+        System.out.println(task.getTaskType());
         return taskService.addTask(task);
     }
 
