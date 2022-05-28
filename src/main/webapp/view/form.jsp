@@ -125,7 +125,7 @@
         </div>
     </footer>
 </div>
-<script src="http://cdn.jsdelivr.net/webjars/jquery/3.4.1/jquery.min.js"
+<script src="https://cdn.jsdelivr.net/webjars/jquery/3.4.1/jquery.min.js"
         th:src="@{/webjars/jquery/3.4.1/jquery.min.js}" type="text/javascript"></script>
 <script type="text/javascript" src="${path}/js/jquery.save.js"></script>
 <script src="/todolist/js/burger.js"></script>

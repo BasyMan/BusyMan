@@ -117,7 +117,7 @@ public class UserController {
 			mailMessage.setSubject("Complete Registration!");
 			mailMessage.setFrom("chand312902@gmail.com");
 			mailMessage.setText("To confirm your account, please click here : "
-					+ "http://localhost:8080/todolist/user/confirm-account?token=" + confirmationToken.getConfirmationToken());
+					+ "https://busy-man.herokuapp.com//todolist/user/confirm-account?token=" + confirmationToken.getConfirmationToken());
 
 			emailSenderService.sendEmail(mailMessage);
 

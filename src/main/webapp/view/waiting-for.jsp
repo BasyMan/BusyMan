@@ -19,7 +19,7 @@
     <title>BusyMan - Waiting For List</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
-    <script src="http://cdn.jsdelivr.net/webjars/jquery/3.4.1/jquery.min.js"
+    <script src="https://cdn.jsdelivr.net/webjars/jquery/3.4.1/jquery.min.js"
             th:src="@{/webjars/jquery/3.4.1/jquery.min.js}" type="text/javascript"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <link id="theme" rel="stylesheet" href="${theme}">

@@ -18,7 +18,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>BusyMan - Users</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
-	<script src="http://cdn.jsdelivr.net/webjars/jquery/3.4.1/jquery.min.js"
+	<script src="https://cdn.jsdelivr.net/webjars/jquery/3.4.1/jquery.min.js"
 			th:src="@{/webjars/jquery/3.4.1/jquery.min.js}" type="text/javascript"></script>
 	<link id="theme" rel="stylesheet" href="${theme}">
 	<link rel="stylesheet" href="../css/style.css">
