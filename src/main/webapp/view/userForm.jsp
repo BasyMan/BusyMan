@@ -95,7 +95,7 @@
 
 							<div class="creator__button_wrapper">
 								<form:button value="Save" >
-								<button onclick="location.href='/todolist/user/list'"  class="creator__button button"> <fmt:message key="change.user.button" /></button>
+								<button onclick="location.href='https://busy-man.herokuapp.com/todolist/user/list'"  class="creator__button button"> <fmt:message key="change.user.button" /></button>
 								</form:button>
 							</div>
 							</div>

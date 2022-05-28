@@ -18,15 +18,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
-    <link href="http://fullcalendar.io/js/fullcalendar-2.2.5/fullcalendar.css"
+    <link href="https://fullcalendar.io/js/fullcalendar-2.2.5/fullcalendar.css"
           th:href="@{/webjars/fullcalendar/2.2.5/fullcalendar.css}" rel="stylesheet"></link>
-    <link href="http://fullcalendar.io/js/fullcalendar-2.2.5/fullcalendar.print.css"
+    <link href="https://fullcalendar.io/js/fullcalendar-2.2.5/fullcalendar.print.css"
           th:href="@{/webjars/fullcalendar/2.2.5/fullcalendar.print.css}" rel="stylesheet" media="print"></link>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"
             th:src="@{/webjars/momentjs/2.9.0/min/moment.min.js}" type="text/javascript"></script>
-    <script src="http://cdn.jsdelivr.net/webjars/jquery/3.4.1/jquery.min.js"
+    <script src="https://cdn.jsdelivr.net/webjars/jquery/3.4.1/jquery.min.js"
             th:src="@{/webjars/jquery/3.4.1/jquery.min.js}" type="text/javascript"></script>
-    <script src="http://fullcalendar.io/js/fullcalendar-2.2.5/fullcalendar.min.js"
+    <script src="https://fullcalendar.io/js/fullcalendar-2.2.5/fullcalendar.min.js"
             th:src="@{/webjars/fullcalendar/2.2.5/fullcalendar.min.js}" type="text/javascript"></script>
 
     <script type="text/javascript" src="${path}/js/jquery.boot.js"></script>
