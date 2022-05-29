@@ -108,23 +108,23 @@ public class UserController {
 		}
 		    userForm.setPassword(new BCryptPasswordEncoder().encode(userForm.getPassword()));
  			userService.addUser(userForm);
-			ConfirmationToken confirmationToken = new ConfirmationToken(userForm);
-			confirmationToken.setUser(userService.findByUsernam(userForm.getUserName()));
-			confirmationTokenRepository.save(confirmationToken);
-			System.out.println(userForm.getEmail());
+//			ConfirmationToken confirmationToken = new ConfirmationToken(userForm);
+//			confirmationToken.setUser(userService.findByUsernam(userForm.getUserName()));
+//			confirmationTokenRepository.save(confirmationToken);
+//			System.out.println(userForm.getEmail());
+//
+//			SimpleMailMessage mailMessage = new SimpleMailMessage();
+//			mailMessage.setTo(userForm.getEmail());
+//			mailMessage.setSubject("Complete Registration!");
+//			mailMessage.setFrom("chand312902@gmail.com");
+//			mailMessage.setText("To confirm your account, please click here : "
+//					+ "https://busy-man.herokuapp.com//todolist/user/confirm-account?token=" + confirmationToken.getConfirmationToken());
+//
+//			emailSenderService.sendEmail(mailMessage);
+//
+//			model.addAttribute("email", userForm.getEmail());
 
-			SimpleMailMessage mailMessage = new SimpleMailMessage();
-			mailMessage.setTo(userForm.getEmail());
-			mailMessage.setSubject("Complete Registration!");
-			mailMessage.setFrom("chand312902@gmail.com");
-			mailMessage.setText("To confirm your account, please click here : "
-					+ "https://busy-man.herokuapp.com//todolist/user/confirm-account?token=" + confirmationToken.getConfirmationToken());
-
-			emailSenderService.sendEmail(mailMessage);
-
-			model.addAttribute("email", userForm.getEmail());
-
-			return "email-confirm";
+			return "login";
 	}
 
 	@RequestMapping(value="/confirm-account", method= {RequestMethod.GET, RequestMethod.POST})
