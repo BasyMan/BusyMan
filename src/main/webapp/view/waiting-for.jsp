@@ -119,11 +119,12 @@
                                     <c:out value="${task.getOwner()}"/>
                                 </div>
                             </div>
+
                             <div class="element__info element__info_waiting">
-                                <div class="element__task-name">
+                                <div class="element__task-name waiting__name">
                                     <c:out value="${task.getTitle()}"/>
                                 </div>
-                                <div class="element__date">
+                                <div class="element__date waiting__date">
                                     <c:out value=" ${task.getEnd().substring(11, 16)}"/>&nbsp <c:out value="${task.getEnd().substring(0, 10)}"/>
                                 </div>
                             </div>
@@ -151,10 +152,10 @@
                                 </div>
                             </div>
                             <div class="element__info element__info_waiting">
-                                <div class="element__task-name">
+                                <div class="element__task-name waiting__name">
                                     <c:out value="${task.getTitle()}"/>
                                 </div>
-                                <div class="element__date">
+                                <div class="element__date waiting__date">
                                     <c:out value=" ${task.getEnd().substring(11, 16)}"/>&nbsp <c:out value="${task.getEnd().substring(0, 10)}"/>
                                 </div>
                             </div>
